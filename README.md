@@ -59,7 +59,7 @@ Additionally, the app offers vital community services such as emergency blood do
 ---
 
 <p align="center">
-  <b>Developer <a href="https://www.linkedin.com/in/withishtiaq/" target="_blank">Ishtiaq Ahmed</a></b><br><br>
+  <b>Developer <a href="https://www.facebook.com/ishtiaq.ahmed19" target="_blank">Ishtiaq Ahmed</a></b><br><br>
   <a href="mailto:withishtiaq@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-withishtiaq@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail">
   </a>
