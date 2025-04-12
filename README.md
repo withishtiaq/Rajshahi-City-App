@@ -28,9 +28,10 @@
 <br /> 
 
 <!--Start Intro-->               
-<p align="left">The Rajshahi City App is a free Android application designed to streamline access to essential services for residents of the Rajshahi district. This lifestyle app encompasses a wide range of features, including product buying and selling, doctor appointment bookings, and real estate transactions. Users can conveniently check train and bus schedules, as well as explore local tourist attractions, all from their mobile device.
+<p align="left">The Rajshahi City App is a free Android application designed to streamline access to essential services for residents of the Rajshahi district. This lifestyle app encompasses a wide range of features, including product buying and selling, doctor appointment bookings, and real estate transactions. Users can conveniently check train and bus schedules, as well as explore local tourist attractions, all from their mobile device. 
 
 Additionally, the app offers vital community services such as emergency blood donation assistance and contact details for police and fire services. It also facilitates vehicle rentals and provides job notifications, along with contact information for home tutors, mechanics, and restaurants. With 24/7 support available, the Rajshahi City App serves as a comprehensive resource for daily needs, enhancing the quality of life for its users.
+
 
  </p>
 
@@ -46,6 +47,8 @@ Additionally, the app offers vital community services such as emergency blood do
 
 <!--Languages and Tools Section-->       
 <h2 align="center">Screen Shot</h2> 
+<h3 align="left"> Description </h3> <br>
+<p>Rajshahi City App is a mobile application developed to help users explore the beautiful city of Rajshahi. Whether you're a tourist or a local, this app provides essential information, travel tips, and locations around Rajshahi. Download the APK now and start exploring!</p>
 <picture>
 
   <img align="center" alt="GIF description" src="./trnst.png">
