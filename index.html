@@ -1,112 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rajshahi City App</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
+      background-color: #f4f4f4;
       margin: 0;
-      padding: 20px;
-      background-color: #f9f9f9;
-      color: #222;
+      padding: 0;
+      color: #333;
     }
-    h1, h2, h3 {
-      text-align: center;
-    }
-    p, li {
-      max-width: 800px;
+    .container {
+      max-width: 960px;
       margin: auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .center {
+    h1, h2, h3, p {
       text-align: center;
-    }
-    .badges img, .social-links img {
-      margin: 5px;
     }
     img {
       max-width: 100%;
       height: auto;
+      display: block;
+      margin: auto;
     }
-    .screenshot {
-      display: flex;
-      justify-content: center;
+    .badges {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .badges img {
+      margin: 0 5px;
+    }
+    .intro, .description {
+      text-align: left;
       margin: 20px 0;
     }
-    .right-img {
-      float: right;
-      width: 40%;
-      margin: 0 0 20px 20px;
+    .download-section {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .download-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #388E3C;
+    }
+    .social-links {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
     }
   </style>
 </head>
+
 <body>
+  <div class="container">
+    <p align="center">Rajshahi City App - Your Guide to Rajshahi!</p>
+    <h1>Rajshahi City App</h1>
+    <p align="center">A feature-rich guide to explore the beautiful city of Rajshahi.</p>
 
-  <p class="center">Rajshahi City App - Your Guide to Rajshahi!</p>
-  <h1>Rajshahi City App</h1>
-  <p class="center">A feature-rich guide to explore the beautiful city of Rajshahi.</p>
+    <div class="badges">
+      <img src="https://img.shields.io/badge/Platform-Android-green?style=flat&logo=android&logoColor=white" alt="Platform Badge">
+      <img src="https://img.shields.io/badge/Flutter-Built-blue?style=flat&logo=flutter&logoColor=white" alt="Flutter Badge">
+      <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat&logo=github" alt="Status Badge">
+    </div>
 
-  <div class="center badges">
-    <img src="https://img.shields.io/badge/Platform-Android-green?style=flat&logo=android&logoColor=white" alt="Platform Badge">
-    <img src="https://img.shields.io/badge/Flutter-Built-blue?style=flat&logo=flutter&logoColor=white" alt="Flutter Badge">
-    <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat&logo=github" alt="Status Badge">
-  </div>
+    <img src="./feature.png" alt="Banner">
+    <img align="right" width="40%" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkjOqlg80tpCN9IxUsigRLpexUAK_mSta8sVFJdAw4nkOB88nPG-vbqpYLZWeopqOpOt8KiKTDlKKM3jBO0eZlOi9SaKgXVBYrqCEjviu2_1pulfmd1Ueob3V9_2CyMBMMLk8Y-aGb9faZzw-dzzC-LhRG85gp04m9ksvfJwSxxV8lmp1fNdVH5ZdNY9pc/s16000/512_512.png" alt="App Icon">
 
-  <hr>
+    <h2>
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/072fa096-b852-4161-ae5d-8f42f037c051/d3jae6h-5cbe2b8c-5efc-4dbe-ab37-f10fea30b54e.gif" width="35" alt="Logo">
+      Rajshahi City App!
+    </h2>
+    <p class="intro">
+      The Rajshahi City App is a free Android application designed to streamline access to essential services for residents of the Rajshahi district. This lifestyle app encompasses a wide range of features, including product buying and selling, doctor appointment bookings, and real estate transactions. Users can conveniently check train and bus schedules, as well as explore local tourist attractions, all from their mobile device.
+      <br><br>
+      Additionally, the app offers vital community services such as emergency blood donation assistance and contact details for police and fire services. It also facilitates vehicle rentals and provides job notifications, along with contact information for home tutors, mechanics, and restaurants. With 24/7 support available, the Rajshahi City App serves as a comprehensive resource for daily needs, enhancing the quality of life for its users.
+    </p>
 
-  <div class="center">
-    <img src="./feature.png" alt="Banner Image">
-  </div>
+    <div class="download-section">
+      <a href="https://www.upload-apk.com/en/Woy6bPjltEijrZr" class="download-button" target="_blank">📥 Download from Upload-APK</a>
+      <a href="https://withishtiaq.itch.io/rajshahi-city" class="download-button" target="_blank">📥 Download from Itch.io</a>
+    </div>
 
-  <img class="right-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkjOqlg80tpCN9IxUsigRLpexUAK_mSta8sVFJdAw4nkOB88nPG-vbqpYLZWeopqOpOt8KiKTDlKKM3jBO0eZlOi9SaKgXVBYrqCEjviu2_1pulfmd1Ueob3V9_2CyMBMMLk8Y-aGb9faZzw-dzzC-LhRG85gp04m9ksvfJwSxxV8lmp1fNdVH5ZdNY9pc/s16000/512_512.png" alt="Night Owl Icon">
-
-  <h2>🌆 Rajshahi City App!</h2>
-  <p><em>Comprehensive Lifestyle App for Rajshahi Residents</em></p>
-
-  <p>
-    The Rajshahi City App is a free Android application designed to streamline access to essential services for residents of the Rajshahi district. This lifestyle app encompasses a wide range of features, including product buying and selling, doctor appointment bookings, and real estate transactions.
-    Users can conveniently check train and bus schedules, as well as explore local tourist attractions, all from their mobile device.
-
-    Additionally, the app offers vital community services such as emergency blood donation assistance and contact details for police and fire services.
-    It also facilitates vehicle rentals and provides job notifications, along with contact information for home tutors, mechanics, and restaurants.
-    With 24/7 support available, the Rajshahi City App serves as a comprehensive resource for daily needs, enhancing the quality of life for its users.
-  </p>
-
-  <ul>
-    <li><a href="https://www.upload-apk.com/en/Woy6bPjltEijrZr">📥 Download from Upload-APK</a></li>
-    <li><a href="https://withishtiaq.itch.io/rajshahi-city">📥 Download from Itch.io</a></li>
-  </ul>
-
-  <hr>
-
-  <h2>📸 Screen Shot</h2>
-  <h3>Description</h3>
-  <p>
-    Rajshahi City App is a mobile application developed to help users explore the beautiful city of Rajshahi.
-    Whether you're a tourist or a local, this app provides essential information, travel tips, and locations around Rajshahi.
-    Download the APK now and start exploring!
-  </p>
-
-  <div class="screenshot">
+    <h2>Screen Shot</h2>
+    <h3>Description</h3>
+    <p class="description">
+      Rajshahi City App is a mobile application developed to help users explore the beautiful city of Rajshahi. Whether you're a tourist or a local, this app provides essential information, travel tips, and locations around Rajshahi. Download the APK now and start exploring!
+    </p>
     <img src="./trnst.png" alt="Screenshot">
+
+    <div class="social-links">
+      <p><b>Developer <a href="https://www.linkedin.com/in/withishtiaq/" target="_blank">Ishtiaq Ahmed</a></b></p>
+      <a href="mailto:withishtiaq@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-withishtiaq@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail">
+      </a>
+      <a href="https://www.linkedin.com/in/withishtiaq/">
+        <img src="https://img.shields.io/badge/LinkedIn-Ishtiaq%20Ahmed-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
+      </a>
+      <a href="https://www.instagram.com/withishtiaq/?igsh=NzlmcjZ6dmI1dzNl#">
+        <img src="https://img.shields.io/badge/Instagram-@withishtiaq-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
+      </a>
+    </div>
   </div>
-
-  <hr>
-
-  <div class="center social-links">
-    <p><strong>Developer: <a href="https://www.linkedin.com/in/withishtiaq/" target="_blank">Ishtiaq Ahmed</a></strong></p>
-    <a href="mailto:withishtiaq@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-withishtiaq@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail">
-    </a>
-    <a href="https://www.linkedin.com/in/withishtiaq/">
-      <img src="https://img.shields.io/badge/LinkedIn-Ishtiaq%20Ahmed-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
-    <a href="https://www.instagram.com/withishtiaq/?igsh=NzlmcjZ6dmI1dzNl#">
-      <img src="https://img.shields.io/badge/Instagram-@withishtiaq-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram">
-    </a>
-  </div>
-
 </body>
+
 </html>
