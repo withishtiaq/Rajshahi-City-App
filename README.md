@@ -1,3 +1,4 @@
+<p align="center"> Rajshahi City App - Your Guide to Rajshahi!</p> 
 <h1 align="center">Rajshahi City App</h1>
 <p align="center">
   A feature-rich guide to explore the beautiful city of Rajshahi.<br>
