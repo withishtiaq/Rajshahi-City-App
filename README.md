@@ -35,8 +35,9 @@ Additionally, the app offers vital community services such as emergency blood do
 
  </p>
 
+- ➡️ [DOWNLOAD APP](https://apkpure.com/p/com.mycompany.rajshahicity) 
+- ➡️ [DOWNLOAD APP](https://withishtiaq.itch.io/rajshahi-city)
 
-- ➡️ [DOWNLOAD APP](https://withishtiaq.itch.io/rajshahi-city) 
 <!--End Intro-->
 
 <!--Profile Count Badge-->
